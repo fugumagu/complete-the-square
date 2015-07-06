@@ -1,0 +1,65 @@
+/********************
+GENERAL
+********************/
+
+
+
+
+/********************
+HEADING
+********************/
+
+
+
+
+/********************
+FORM
+********************/
+input[type="text"] {
+  width: 50%;
+}
+
+#error {
+  color: red;
+  height: 1em;
+}
+
+
+
+/********************
+CONTENT
+********************/
+#content-wrapper  {
+  background-color: #ccc;
+  min-height: 100px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.caption, .show-work {
+  float: left;
+  border: solid black 1px;
+  padding: 0 10px;
+}
+
+.caption {
+  text-align: right;
+  width: 20%;
+}
+
+.show-work {
+  width: 70%;
+  float: left;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+/*
+.clear-fix {
+  clear: left;
+}
+*/
+
